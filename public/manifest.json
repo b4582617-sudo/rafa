@@ -1,0 +1,44 @@
+{
+  "id": "/",
+  "name": "SIMRUANG - Peminjaman Ruang & Alat",
+  "short_name": "SIMRUANG",
+  "description": "Sistem Peminjaman Ruang Lab, Aula, & Alat Inventaris Anti-Bentrok Kampus",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "categories": ["education", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Form Peminjaman",
+      "url": "/?tab=form",
+      "description": "Ajukan peminjaman sarana sekarang"
+    },
+    {
+      "name": "Jadwal & Anti-Bentrok",
+      "url": "/?tab=schedule",
+      "description": "Lihat kalender ketersediaan"
+    },
+    {
+      "name": "Lacak Tiket",
+      "url": "/?tab=track",
+      "description": "Periksa status izin peminjaman"
+    }
+  ]
+}

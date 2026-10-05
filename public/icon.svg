@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#grad)" />
+  <g transform="translate(96, 96)" filter="url(#shadow)">
+    <!-- Building / Calendar / Space icon -->
+    <path d="M40 80 L160 20 L280 80 L280 260 L40 260 Z" fill="#ffffff" fill-opacity="0.95" />
+    <path d="M40 80 L160 140 L280 80" stroke="#4338ca" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <path d="M160 140 L160 260" stroke="#4338ca" stroke-width="12" stroke-linecap="round" fill="none" />
+    <!-- Checkmark badge (anti-bentrok / approved) -->
+    <circle cx="240" cy="220" r="56" fill="#10b981" />
+    <path d="M216 220 L232 236 L264 204" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+</svg>

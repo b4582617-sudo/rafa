@@ -1,0 +1,6 @@
+{
+  "name": "SIM-RuangAlat: Sistem Peminjaman & Anti-Bentrok Jadwal",
+  "description": "Aplikasi manajemen peminjaman ruang (lab, aula) dan alat (proyektor) dengan sistem deteksi bentrok otomatis dan notifikasi persetujuan instan ke email admin.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
